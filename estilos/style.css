@@ -19,7 +19,9 @@ roxo:  #7B32BA
 }
 
 html, body{
-    background-color: #CE45EE;
+    background-image: url(../imagens/aesthetic-cactus-fmlnhfjwglujkdji.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
 }
@@ -42,7 +44,7 @@ main{
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
-    
+
     transform: translate(-50%, -50%);
     transition: width .5s, heigth .3s;
     transition-timing-function: ease;
@@ -73,6 +75,7 @@ main{
 
 #form > p {
     font-size: .9em;
+    padding: 5px;
 }
 
 .campo > label{
