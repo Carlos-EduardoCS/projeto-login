@@ -35,20 +35,24 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <i class="fa-solid fa-user"></i>
-                        <input type="email" name="login" id="ilogin" placeholder="Seu email" required autocomplete="email">                   <label for="ilogin">
+                        <input type="email" name="login" id="ilogin" placeholder="Seu email" required autocomplete="email" maxlength="30">                  
+                        <label for="ilogin">
                             Login
                         </label>
                     </div>
+
                     <div class="campo">
                         <i class="fa-solid fa-lock"></i>
                         <input type="password" name="senha" id="isenha" placeholder="Sua senha"
-                        required autocomplete="current-password">
+                        required autocomplete="current-password" minlength="8">
                         <label for="isenha">
                             Senha
                         </label>
                     </div>
                     <input type="submit">
-                    <a href="forgot.html">Esqueci a senha</a>
+                    <a href="forgot.html" class="botao">
+                        Esqueci a senha!
+                    </a>
                 </form>
 
             </div>

@@ -67,10 +67,46 @@ main{
     font-family: 'Urbanist', sans-serif;
     font-weight: bold;
     padding: 10px;
+    border-radius: 5px;
     
 }
 
 #form > p {
     font-size: .9em;
+}
 
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #752586;
+    color: wheat;
+    border: none;
+    border-radius: 6px;
+}
+
+form > input[type=submit]:hover{
+    background-color: #34113b;
+    transition: 1s;
+    cursor: pointer;
+}
+
+form > a.botao{
+    margin-top: 8px;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color: #cf45eeb2;
+    transition: 1s;
 }
