@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* tablets */
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
         background-image: linear-gradient(to top,#CE45EE, #7CED58)
@@ -21,6 +23,8 @@
     
 }
 
+
+/* desktops */
 @media screen and (min-width: 992px){
 
     body{
@@ -33,17 +37,26 @@
     }
 
     #login > #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
-          background-position: right bottom;
+        background-position: right bottom;
     }
 
     #login > #formulario{
-        float: right;
+        float: left;
         width: 50%;
       
 
+    }
+
+    #form > h1{
+        font-size: 25px;
+    }
+
+    #form > p {
+        font-size: 1.2em;
+    
     }
     
 }

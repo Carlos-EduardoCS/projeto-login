@@ -62,3 +62,15 @@ main{
 
 }
 
+#form > h1{
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+#form > p {
+    font-size: .9em;
+
+}
